@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #222; 
+    --Secondary-color: #fff;
+}
+
+.dark-mode {
+    --primary-color: #fafac8; 
+    --Secondary-color: #222;
+}
+
+#icon {
+    max-width: 24px;
+    max-height: 24px;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    cursor: pointer;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    /* border: red dotted; */
+}
+
+.dark-mode #icon {
+    transform: rotate(180deg);
+}
+
+html {
+    scroll-behavior: smooth;
+}
